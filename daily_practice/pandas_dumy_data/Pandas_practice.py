@@ -1,3 +1,4 @@
+# This is a simple case of problem-solving using pandas covering a few important questions asked in data analytics interviews.
 import pandas as pd
 from datetime import datetime
 data = {
