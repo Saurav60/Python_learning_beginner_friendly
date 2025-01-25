@@ -1,22 +1,33 @@
+#Write a Python function to find a list's longest consecutive sequence of unique numbers.
 def longest_consecutive_sequence(nums):
     if not nums:
         return []
-    unique_nums = sorted(set(nums))
+    nums_set = set(nums)
+    longest_sequence = []
+    
+    for num in nums_set:
+        if num-1 not in nums_set:
+            current_num = num
+            current_sequence = [num]
+            while num + 1 in nums_set:
+                current_num += 1
+                current_sequence.append(current_num)
 
-    longest_streak = []
-    current_streak = [unique_nums[0]]
+            if len(current_sequence) > len(longest_sequence)
+            longest_sequence = current_sequence
+    return longest_sequence 
 
-    for i in range(1,len(unique_nums)):
-        if unique_nums[i] == unique_nums[i-1] + 1:
-            current_streak.append(unique_nums[i])
-        else:
-            if len(current_streak) > len(longest_streak):
-                longest_streak = current_streak 
-            current_streak = [unique_nums[i]]
-    if len(current_streak) > len(longest_streak):
-        longest_streak = current_streak 
-    return longest_streak 
 
-nums = [1,2,5,6,7,8,3,4,9,10,12,11]
+# Example usage
+nums = [100, 4, 200, 1, 3, 2, 2, 101]
 result = longest_consecutive_sequence(nums)
-print(result)
+print(f"Longest consecutive sequence: {result}")
+output
+Longest consecutive sequence: [1, 2, 3, 4]
+
+
+
+
+
+
+
