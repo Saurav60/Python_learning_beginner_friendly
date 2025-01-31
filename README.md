@@ -68,11 +68,6 @@ If you're also learning Python and would like to contribute:
 
 ---
 
-## 📧 Contact
-
-If you have questions, suggestions, or just want to connect, feel free to reach out:
-- **Email**: saur98570@gmail.com
-- **LinkedIn**: https://linkedin.com/in/saurav82190
 
 Happy coding! 😊
 
