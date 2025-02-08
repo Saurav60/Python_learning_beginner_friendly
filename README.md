@@ -13,7 +13,7 @@ This repository is designed to:
 - Cover concepts like:
   - Control structures
   - Functions
-  - Data structures (lists, tuples, dictionaries, etc.)
+  - Data structures (lists, tuples, dictionaries, arrays, string, stack, sets, queue, linkedlist etc.) and various algorithms.
   - File handling
   - Modules and libraries
   - Problem-solving approaches
